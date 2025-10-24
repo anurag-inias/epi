@@ -81,7 +81,7 @@ extra_css:
 
 nav:
   - About: "index.md"
-  - Primitive Types:
+  - Primitive Types (11):
     - Computing the parity of a word: "primitives/"
     - Swap bits: "primitives/"
     - Reverse bits: "primitives/"
@@ -93,7 +93,7 @@ nav:
     - Check if a decimal integer is a palindrome: "primitives/"
     - Generate uniform random numbers: "primitives/"
     - Rectangle intersection: "primitives/"
-  - Arrays:
+  - Arrays (19):
     - The Dutch national flag problem: "arrays/"
     - Increment an arbitrary-precision integer: "arrays/"
     - Multiply two arbitrary-precision integers: "arrays/"
@@ -113,7 +113,7 @@ nav:
     - Compute the spiral ordering of a 2D array: "arrays/"
     - Rotate a 2D array: "arrays/"
     - Compute rowsin Pascal's Triangle: "arrays/"
-  - Strings:
+  - Strings (13):
     - Interconvertstrings and integers: "strings/"
     - Base conversion: "strings/"
     - Compute the spreadsheet column encoding: "strings/"
@@ -127,7 +127,7 @@ nav:
     - Write a string sinusoidally: "strings/"
     - Implement run-length encoding: "strings/"
     - Find the first occurrence of a substring: "strings/"
-  - Linked Lists:
+  - Linked Lists (13):
     - Merge two sorted lists: "linked-lists/"
     - Reverse a single sublist: "linked-lists/"
     - Test for cyclicity: "linked-lists/"
@@ -141,7 +141,7 @@ nav:
     - Test whether a singly linked list is palindromic: "linked-lists/"
     - Implement list pivoting: "linked-lists/"
     - Add list-based integers: "linked-lists/"
-  - Stacks & Queues:
+  - Stacks & Queues (10):
     - Implement a stack with max API: "stacks-and-queues/"
     - Evaluate RPN expressions: "stacks-and-queues/"
     - Test a string over for well-formedness: "stacks-and-queues/"
@@ -152,7 +152,7 @@ nav:
     - Implement a circular queue: "stacks-and-queues/"
     - Implement a queue using stacks: "stacks-and-queues/"
     - Implement a queue with max API: "stacks-and-queues/"
-  - Binary Trees:
+  - Binary Trees (17):
     - Test if a binary tree is height-balanced: "binary-trees/"
     - Test if a binary tree issymmetric: "binary-trees/"
     - Compute the lowest common ancestor in a binary tree: "binary-trees/"
@@ -170,7 +170,7 @@ nav:
     - Compute the exterior of a binary tree: "binary-trees/"
     - Compute the rightsibling tree: "binary-trees/"
     - Implement locking in a binary tree: "binary-trees/"
-  - Heaps:
+  - Heaps (7):
     - Merge sorted files: "heaps/"
     - Sort an increasing-decreasing array: "heaps/"
     - Sort an almost-sorted array: "heaps/"
@@ -178,7 +178,7 @@ nav:
     - Compute the median of online data: "heaps/"
     - Compute the k largest elementsin a max-heap: "heaps/"
     - Implement a stack API using a heap: "heaps/"
-  - Searching:
+  - Searching (10):
     - Search a sorted array for first occurrence of k: "searching/"
     - Search a sorted array for entry equal to itsindex: "searching/"
     - Search a cyclically sorted array: "searching/"
@@ -189,7 +189,7 @@ nav:
     - Find the fcth largest element: "searching/"
     - Find the missing IP address: "searching/"
     - Find the duplicate and missing elements: "searching/"
-  - Hash Tables:
+  - Hash Tables (14):
     - Test for palindromic permutations: "hash-tables/"
     - Is an anonymousletter constructible?: "hash-tables/"
     - Implement an ISBN cache: "hash-tables/"
@@ -204,7 +204,7 @@ nav:
     - Compute allstring decompositions: "hash-tables/"
     - Test the Collatz conjecture: "hash-tables/"
     - Implement a hash function for chess: "hash-tables/"
-  - Sorting:
+  - Sorting (10):
     - Compute the intersection of two sorted arrays: "sorting/"
     - Merge two sorted arrays: "sorting/"
     - Remove first-name duplicates: "sorting/"
@@ -215,7 +215,7 @@ nav:
     - Team photo day—1: "sorting/"
     - Implement a fastsorting algorithm for lists: "sorting/"
     - Compute a salary threshold: "sorting/"
-  - Binary Search Trees:
+  - Binary Search Trees (13):
     - Test if a binary tree satisfies the BST property: "bst/"
     - Find the first key greater than a given value in a BST: "bst/"
     - Find the k largest elementsin a BST: "bst/"
@@ -229,7 +229,7 @@ nav:
     - Test if three BST nodes are totally ordered: "bst/"
     - The range lookup problem: "bst/"
     - Add credits: "bst/"
-  - Recursion:
+  - Recursion (11):
     - The Towers of Hanoi problem: "recursion/"
     - Generate all nonattacking placements of n-Queens: "recursion/"
     - Generate permutations: "recursion/"
@@ -241,7 +241,7 @@ nav:
     - Implement a Sudoku solver: "recursion/"
     - Compute a Gray code: "recursion/"
     - Compute the diameter of a tree: "recursion/"
-  - Dynamic Programming:
+  - Dynamic Programming (12):
     - Count the number of score combinations: "dp/"
     - Compute the Levenshtein distance: "dp/"
     - Count the number of waysto traverse a 2D array: "dp/"
@@ -254,7 +254,7 @@ nav:
     - Count the number of moves to climb stairs: "dp/"
     - The pretty printing problem: "dp/"
     - Find the longest nondecreasing subsequence: "dp/"
-  - Greedy Algorithms and Invariants:
+  - Greedy Algorithms and Invariants (8):
     - Compute an optimum assignment of tasks: "greedy/"
     - Schedule to minimize waiting time: "greedy/"
     - The interval covering problem: "greedy/"
@@ -263,7 +263,7 @@ nav:
     - The gasup problem: "greedy/"
     - Compute the maximum water trapped by a pair of vertical lines: "greedy/"
     - Compute the largest rectangle under the skyline: "greedy/"
-  - Graphs:
+  - Graphs (9):
     - Search a maze: "graphs/"
     - Paint a Boolean matrix: "graphs/"
     - Compute enclosed regions: "graphs/"
@@ -273,7 +273,7 @@ nav:
     - Transform one string to another: "graphs/"
     - Team photo day—2: "graphs/"
     - Compute a shortest path with fewest edges: "graphs/"
-  - Parallel Computing:
+  - Parallel Computing (9):
     - Implement caching for a multithreaded dictionary: "parallel/"
     - Analyze two unsynchronized interleaved threads: "parallel/"
     - Implement synchronization for two interleaving threads: "parallel/"
@@ -283,7 +283,7 @@ nav:
     - The readers-writers problem with write preference: "parallel/"
     - Implement a Timer class: "parallel/"
     - Test the Collatz conjecture in parallel: "parallel/"
-  - Honors:
+  - Honors (40):
     - Compute the greatest common divisor: "honors/"
     - Find the first missing positive entry: "honors/"
     - Buy and sell a stock k times: "honors/"
