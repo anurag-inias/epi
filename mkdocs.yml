@@ -1,0 +1,326 @@
+site_name: listless 💤
+site_url: "https://listless.dev"
+theme:
+  name: material
+  logo: assets/fatigue-light.svg
+  favicon: assets/fatigue-dark.svg
+  font:
+    text: "Briskpace"
+    code: "Mullet"
+    # code: "Roboto Mono Medium"
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+  # Setup for theme switch https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+plugins:
+  - tags
+  - glightbox
+  - placeholder:
+      placeholder_file: placeholder-plugin.yaml
+  - rss:
+      match_path: .*
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr
+  - attr_list
+  - footnotes
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/tablesort.min.js
+  - assets/tablesort.number.min.js
+  - assets/tablesort.js
+
+extra_css:
+  - assets/extra.css
+
+nav:
+  - About: "index.md"
+  - Primitive Types:
+    - Computing the parity of a word: "primitives/"
+    - Swap bits: "primitives/"
+    - Reverse bits: "primitives/"
+    - Find a closest integer with the same weight: "primitives/"
+    - Compute x x y without arithmetical operators: "primitives/"
+    - Compute x ÷ y: "primitives/"
+    - Compute x<sup>y</sup>: "primitives/"
+    - Reverse digits: "primitives/"
+    - Check if a decimal integer is a palindrome: "primitives/"
+    - Generate uniform random numbers: "primitives/"
+    - Rectangle intersection: "primitives/"
+  - Arrays:
+    - The Dutch national flag problem: "arrays/"
+    - Increment an arbitrary-precision integer: "arrays/"
+    - Multiply two arbitrary-precision integers: "arrays/"
+    - Advancing through an array: "arrays/"
+    - Delete duplicatesfrom a sorted array: "arrays/"
+    - Buy and sell a stock once: "arrays/"
+    - Buy and sell a stock twice: "arrays/"
+    - Enumerate all primes to n: "arrays/"
+    - Permute the elements of an array: "arrays/"
+    - Compute the next permutation: "arrays/"
+    - Sample offline data: "arrays/"
+    - Sample online data: "arrays/"
+    - Compute a random permutation: "arrays/"
+    - Compute a random subset: "arrays/"
+    - Generate nonuniform random numbers: "arrays/"
+    - The Sudoku checker problem: "arrays/"
+    - Compute the spiral ordering of a 2D array: "arrays/"
+    - Rotate a 2D array: "arrays/"
+    - Compute rowsin Pascal's Triangle: "arrays/"
+  - Strings:
+    - Interconvertstrings and integers: "strings/"
+    - Base conversion: "strings/"
+    - Compute the spreadsheet column encoding: "strings/"
+    - Replace and remove: "strings/"
+    - Test palindromicity: "strings/"
+    - Reverse all the wordsin a sentence: "strings/"
+    - Compute all mnemonicsfor a phone number: "strings/"
+    - The look-and-say problem: "strings/"
+    - Convert from Roman to decimal: "strings/"
+    - Compute all valid IP addresses: "strings/"
+    - Write a string sinusoidally: "strings/"
+    - Implement run-length encoding: "strings/"
+    - Find the first occurrence of a substring: "strings/"
+  - Linked Lists:
+    - Merge two sorted lists: "linked-lists/"
+    - Reverse a single sublist: "linked-lists/"
+    - Test for cyclicity: "linked-lists/"
+    - Test for overlapping lists—lists are cycle-free: "linked-lists/"
+    - Test for overlapping lists—lists may have cycles: "linked-lists/"
+    - Delete a node from a singly linked list: "linked-lists/"
+    - Remove the kth last element from a list: "linked-lists/"
+    - Remove duplicatesfrom a sorted list: "linked-lists/"
+    - Implement cyclic rightshift for singly linked lists: "linked-lists/"
+    - Implement even-odd merge: "linked-lists/"
+    - Test whether a singly linked list is palindromic: "linked-lists/"
+    - Implement list pivoting: "linked-lists/"
+    - Add list-based integers: "linked-lists/"
+  - Stacks & Queues:
+    - Implement a stack with max API: "stacks-and-queues/"
+    - Evaluate RPN expressions: "stacks-and-queues/"
+    - Test a string over for well-formedness: "stacks-and-queues/"
+    - Normalize pathnames: "stacks-and-queues/"
+    - Search a postings list: "stacks-and-queues/"
+    - Compute buildings with a sunset view: "stacks-and-queues/"
+    - Compute binary tree nodesin order of increasing depth: "stacks-and-queues/"
+    - Implement a circular queue: "stacks-and-queues/"
+    - Implement a queue using stacks: "stacks-and-queues/"
+    - Implement a queue with max API: "stacks-and-queues/"
+  - Binary Trees:
+    - Test if a binary tree is height-balanced: "binary-trees/"
+    - Test if a binary tree issymmetric: "binary-trees/"
+    - Compute the lowest common ancestor in a binary tree: "binary-trees/"
+    - Compute the LCA when nodes have parent pointers: "binary-trees/"
+    - Sum the root-to-leaf pathsin a binary tree: "binary-trees/"
+    - Find a root to leaf path with specified sum: "binary-trees/"
+    - Implement an inorder traversal without recursion: "binary-trees/"
+    - Implement a preorder traversal without recursion: "binary-trees/"
+    - Compute the fcth node in an inorder traversal: "binary-trees/"
+    - Compute the successor: "binary-trees/"
+    - Implement an inorder traversal with O(1) space: "binary-trees/"
+    - Reconstruct a binary tree from traversal data: "binary-trees/"
+    - Reconstruct a binary tree from a preorder traversal with markers .: "binary-trees/"
+    - Form a linked list from the leaves of a binary tree: "binary-trees/"
+    - Compute the exterior of a binary tree: "binary-trees/"
+    - Compute the rightsibling tree: "binary-trees/"
+    - Implement locking in a binary tree: "binary-trees/"
+  - Heaps:
+    - Merge sorted files: "heaps/"
+    - Sort an increasing-decreasing array: "heaps/"
+    - Sort an almost-sorted array: "heaps/"
+    - Compute the k closeststars: "heaps/"
+    - Compute the median of online data: "heaps/"
+    - Compute the k largest elementsin a max-heap: "heaps/"
+    - Implement a stack API using a heap: "heaps/"
+  - Searching:
+    - Search a sorted array for first occurrence of k: "searching/"
+    - Search a sorted array for entry equal to itsindex: "searching/"
+    - Search a cyclically sorted array: "searching/"
+    - Compute the integersquare root: "searching/"
+    - Compute the realsquare root: "searching/"
+    - Search in a 2D sorted array: "searching/"
+    - Find the min and max simultaneously: "searching/"
+    - Find the fcth largest element: "searching/"
+    - Find the missing IP address: "searching/"
+    - Find the duplicate and missing elements: "searching/"
+  - Hash Tables:
+    - Test for palindromic permutations: "hash-tables/"
+    - Is an anonymousletter constructible?: "hash-tables/"
+    - Implement an ISBN cache: "hash-tables/"
+    - Compute the LCA, optimizing for close ancestors: "hash-tables/"
+    - Compute the k most frequent queries: "hash-tables/"
+    - Find the nearest repeated entriesin an array: "hash-tables/"
+    - Find the smallestsubarray covering all values: "hash-tables/"
+    - Find smallestsubarray sequentially covering all values: "hash-tables/"
+    - Find the longestsubarray with distinct entries: "hash-tables/"
+    - Find the length of a longest contained interval: "hash-tables/"
+    - Compute the average of the top three scores: "hash-tables/"
+    - Compute allstring decompositions: "hash-tables/"
+    - Test the Collatz conjecture: "hash-tables/"
+    - Implement a hash function for chess: "hash-tables/"
+  - Sorting:
+    - Compute the intersection of two sorted arrays: "sorting/"
+    - Merge two sorted arrays: "sorting/"
+    - Remove first-name duplicates: "sorting/"
+    - Render a calendar: "sorting/"
+    - Merging intervals: "sorting/"
+    - Compute the union of intervals: "sorting/"
+    - Partitioning and sorting an array with many repeated entries: "sorting/"
+    - Team photo day—1: "sorting/"
+    - Implement a fastsorting algorithm for lists: "sorting/"
+    - Compute a salary threshold: "sorting/"
+  - Binary Search Trees:
+    - Test if a binary tree satisfies the BST property: "bst/"
+    - Find the first key greater than a given value in a BST: "bst/"
+    - Find the k largest elementsin a BST: "bst/"
+    - Compute the LCA in a BST: "bst/"
+    - Reconstruct a BST from traversal data: "bst/"
+    - Find the closest entriesin three sorted arrays: "bst/"
+    - Enumerate numbers of the form a + bÿJl: "bst/"
+    - The most visited pages problem: "bst/"
+    - Build a minimum height BST from a sorted array: "bst/"
+    - Insertion and deletion in a BST: "bst/"
+    - Test if three BST nodes are totally ordered: "bst/"
+    - The range lookup problem: "bst/"
+    - Add credits: "bst/"
+  - Recursion:
+    - The Towers of Hanoi problem: "recursion/"
+    - Generate all nonattacking placements of n-Queens: "recursion/"
+    - Generate permutations: "recursion/"
+    - Generate the powerset: "recursion/"
+    - Generate allsubsets of size k: "recursion/"
+    - Generate strings of matched parens: "recursion/"
+    - Generate palindromic decompositions: "recursion/"
+    - Generate binary trees: "recursion/"
+    - Implement a Sudoku solver: "recursion/"
+    - Compute a Gray code: "recursion/"
+    - Compute the diameter of a tree: "recursion/"
+  - Dynamic Programming:
+    - Count the number of score combinations: "dp/"
+    - Compute the Levenshtein distance: "dp/"
+    - Count the number of waysto traverse a 2D array: "dp/"
+    - Compute the binomial coefficients: "dp/"
+    - Search for a sequence in a 2D array: "dp/"
+    - The knapsack problem: "dp/"
+    - The bedbathandbeyond.com problem: "dp/"
+    - Find the minimum weight path in a triangle: "dp/"
+    - Pick up coinsfor maximum gain: "dp/"
+    - Count the number of moves to climb stairs: "dp/"
+    - The pretty printing problem: "dp/"
+    - Find the longest nondecreasing subsequence: "dp/"
+  - Greedy Algorithms and Invariants:
+    - Compute an optimum assignment of tasks: "greedy/"
+    - Schedule to minimize waiting time: "greedy/"
+    - The interval covering problem: "greedy/"
+    - The 3-sum problem: "greedy/"
+    - Find the majority element: "greedy/"
+    - The gasup problem: "greedy/"
+    - Compute the maximum water trapped by a pair of vertical lines: "greedy/"
+    - Compute the largest rectangle under the skyline: "greedy/"
+  - Graphs:
+    - Search a maze: "graphs/"
+    - Paint a Boolean matrix: "graphs/"
+    - Compute enclosed regions: "graphs/"
+    - Deadlock detection: "graphs/"
+    - Clone a graph: "graphs/"
+    - Making wired connections: "graphs/"
+    - Transform one string to another: "graphs/"
+    - Team photo day—2: "graphs/"
+    - Compute a shortest path with fewest edges: "graphs/"
+  - Parallel Computing:
+    - Implement caching for a multithreaded dictionary: "parallel/"
+    - Analyze two unsynchronized interleaved threads: "parallel/"
+    - Implement synchronization for two interleaving threads: "parallel/"
+    - Implement a thread pool: "parallel/"
+    - Deadlock: "parallel/"
+    - The readers-writers problem: "parallel/"
+    - The readers-writers problem with write preference: "parallel/"
+    - Implement a Timer class: "parallel/"
+    - Test the Collatz conjecture in parallel: "parallel/"
+  - Honors:
+    - Compute the greatest common divisor: "honors/"
+    - Find the first missing positive entry: "honors/"
+    - Buy and sell a stock k times: "honors/"
+    - Compute the maximum product of all entries but one: "honors/"
+    - Compute the longest contiguous increasing subarray: "honors/"
+    - Rotate an array: "honors/"
+    - Identify positions attacked by rooks: "honors/"
+    - Justify text: "honors/"
+    - Implement list zipping: "honors/"
+    - Copy a postingslist: "honors/"
+    - Compute the longestsubstring with matching parens: "honors/"
+    - Compute the maximum of a sliding window: "honors/"
+    - Implement a postorder traversal without recursion: "honors/"
+    - Compute fair bonuses: "honors/"
+    - Search a sorted array of unknown length: "honors/"
+    - Search in two sorted arrays: "honors/"
+    - Find the kth largest element—large n, small k: "honors/"
+    - Find an element that appears only once: "honors/"
+    - Find the line through the most points: "honors/"
+    - Find the shortest unique prefix: "honors/"
+    - Find the most visited pagesin a window: "honors/"
+    - Convert a sorted doubly linked list into a BST: "honors/"
+    - Convert a BST to a sorted doubly linked list: "honors/"
+    - Merge two BSTs: "honors/"
+    - The view from above: "honors/"
+    - Implement regular expression matching: "honors/"
+    - Synthesize an expression: "honors/"
+    - Count inversions: "honors/"
+    - Draw the skyline: "honors/"
+    - Measure with defective jugs: "honors/"
+    - Compute the maximum subarray sum in a circular array: "honors/"
+    - Determine the critical height: "honors/"
+    - Find the maximum 2D subarray: "honors/"
+    - Implement Huffman coding: "honors/"
+    - Trapping water: "honors/"
+    - Search for a pair-sum in an abs-sorted array: "honors/"
+    - The heavy hitter problem: "honors/"
+    - Find the longestsubarray whose sum ≤ k: "honors/"
+    - Road network: "honors/"
+    - Test if arbitrage is possible: "honors/"
