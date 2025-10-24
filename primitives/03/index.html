@@ -6372,12 +6372,14 @@
 </details>
 <details>
 <summary>Second approach</summary>
-<p>Use lookup table.</p>
+<p>Use lookup table. The idea is that reversing all bits is same as reversing bits within a chunk, be it a nibble, a short, an int etc; and then arranging those chunks in reverse order.</p>
 <div class="arithmatex">\[
 \begin{align}
-x &amp; = [a \ b \ c \ d \ p \ q \ r \ s] \\
-\text{reverse}(x) &amp;= [s \ r \ q \ p] [d \ c \ b \ a] \\
-&amp;= [s \ r \ q \ p \ d \ c \ b \ a]
+x &amp; = [1 \ 2 \ 3 \ 4 \ a \ b \ c \ d] \\
+&amp; = [1 \ 2 \ 3 \ 4] [a \ b \ c \ d] \\
+&amp; = [4 \ 3 \ 2 \ 1] [d \ c \ b \ a] \\
+&amp; = [d \ c \ b \ a] [4 \ 3 \ 2 \ 1] \\
+&amp; = [d \ c \ b \ a \ 4 \ 3 \ 2 \ 1] = \text{reverse}(x)
 \end{align}
 \]</div>
 <div class="language-java highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="nf">reverseBits</span><span class="p">(</span><span class="kt">long</span><span class="w"> </span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
