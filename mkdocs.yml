@@ -83,7 +83,7 @@ nav:
   - About: "index.md"
   - Primitive Types (11):
     - Computing the parity of a word: "primitives/01.md"
-    - Swap bits: "primitives/"
+    - Swap bits: "primitives/02.md"
     - Reverse bits: "primitives/"
     - Find a closest integer with the same weight: "primitives/"
     - Compute x x y without arithmetical operators: "primitives/"
