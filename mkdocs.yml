@@ -284,7 +284,7 @@ nav:
     - Implement a Timer class: "parallel/"
     - Test the Collatz conjecture in parallel: "parallel/"
   - Honors (40):
-    - Compute the greatest common divisor: "honors/"
+    - Compute the greatest common divisor: "honors/01.md"
     - Find the first missing positive entry: "honors/"
     - Buy and sell a stock k times: "honors/"
     - Compute the maximum product of all entries but one: "honors/"
