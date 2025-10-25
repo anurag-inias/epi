@@ -1,5 +1,5 @@
 document$.subscribe(function() {
-  var tables = document.querySelectorAll("article table:not([class])")
+  var tables = document.querySelectorAll("article .sortable table:not([class])")
   tables.forEach(function(table) {
     const instance = new Tablesort(table);
     document.querySelectorAll("thead th")[2].click()

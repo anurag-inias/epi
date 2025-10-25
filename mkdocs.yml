@@ -86,7 +86,7 @@ nav:
     - Swap bits: "primitives/02.md"
     - Reverse bits: "primitives/03.md"
     - Find a closest integer with the same weight: "primitives/04.md"
-    - Compute x x y without arithmetical operators: "primitives/"
+    - Compute x + y without arithmetical operators: "primitives/05.md"
     - Compute x ÷ y: "primitives/"
     - Compute x<sup>y</sup>: "primitives/"
     - Reverse digits: "primitives/"
