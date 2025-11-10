@@ -91,7 +91,7 @@ nav:
       - Compute xʸ: "primitives/08.md"
       - Reverse digits: "primitives/09.md"
       - Check if a decimal integer is a palindrome: "primitives/10.md"
-      - Generate uniform random numbers: "primitives/"
+      - Generate uniform random numbers: "primitives/11.md"
       - Rectangle intersection: "primitives/"
   - Arrays (19):
       - The Dutch national flag problem: "arrays/"
