@@ -94,7 +94,7 @@ nav:
       - 1.11 Generate uniform random numbers: "primitives/11.md"
       - 1.12 Rectangle intersection: "primitives/12.md"
   - Arrays (19):
-      - The Dutch national flag problem: "arrays/"
+      - 2.1 The Dutch national flag problem: "arrays/01.md"
       - Increment an arbitrary-precision integer: "arrays/"
       - Multiply two arbitrary-precision integers: "arrays/"
       - Advancing through an array: "arrays/"
