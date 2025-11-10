@@ -92,7 +92,7 @@ nav:
       - Reverse digits: "primitives/09.md"
       - Check if a decimal integer is a palindrome: "primitives/10.md"
       - Generate uniform random numbers: "primitives/11.md"
-      - Rectangle intersection: "primitives/"
+      - Rectangle intersection: "primitives/12.md"
   - Arrays (19):
       - The Dutch national flag problem: "arrays/"
       - Increment an arbitrary-precision integer: "arrays/"
