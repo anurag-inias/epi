@@ -87,7 +87,7 @@ nav:
       - Find a closest integer with the same weight: "primitives/04.md"
       - Compute x + y without arithmetical operators: "primitives/05.md"
       - Compute x &times; y without arithmetical operators: "primitives/06.md"
-      - Compute x ÷ y: "primitives/"
+      - Compute x ÷ y: "primitives/07.md"
       - Compute x<sup>y</sup>: "primitives/"
       - Reverse digits: "primitives/"
       - Check if a decimal integer is a palindrome: "primitives/"
