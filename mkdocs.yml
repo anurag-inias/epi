@@ -90,7 +90,7 @@ nav:
       - Compute x ÷ y: "primitives/07.md"
       - Compute xʸ: "primitives/08.md"
       - Reverse digits: "primitives/09.md"
-      - Check if a decimal integer is a palindrome: "primitives/"
+      - Check if a decimal integer is a palindrome: "primitives/10.md"
       - Generate uniform random numbers: "primitives/"
       - Rectangle intersection: "primitives/"
   - Arrays (19):
