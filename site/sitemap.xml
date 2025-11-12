@@ -2,62 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://listless.dev/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/arrays/01/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
+    </url>
+    <url>
+         <loc>https://listless.dev/arrays/02/</loc>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/honors/01/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/01/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/02/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/03/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/04/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/05/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/06/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/07/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/08/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/09/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/10/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/11/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
     <url>
          <loc>https://listless.dev/primitives/12/</loc>
-         <lastmod>2025-11-10</lastmod>
+         <lastmod>2025-11-12</lastmod>
     </url>
 </urlset>

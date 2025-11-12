@@ -95,7 +95,7 @@ nav:
       - 1.12 Rectangle intersection: "primitives/12.md"
   - Arrays (19):
       - 2.1 The Dutch national flag problem: "arrays/01.md"
-      - Increment an arbitrary-precision integer: "arrays/"
+      - 2.2 Increment an arbitrary-precision integer: "arrays/02.md"
       - Multiply two arbitrary-precision integers: "arrays/"
       - Advancing through an array: "arrays/"
       - Delete duplicatesfrom a sorted array: "arrays/"
