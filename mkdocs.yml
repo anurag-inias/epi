@@ -96,7 +96,7 @@ nav:
   - Arrays (19):
       - 2.1 The Dutch national flag problem: "arrays/01.md"
       - 2.2 Increment an arbitrary-precision integer: "arrays/02.md"
-      - Multiply two arbitrary-precision integers: "arrays/"
+      - 2.3 Multiply two arbitrary-precision integers: "arrays/03.md"
       - Advancing through an array: "arrays/"
       - Delete duplicatesfrom a sorted array: "arrays/"
       - Buy and sell a stock once: "arrays/"
