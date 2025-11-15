@@ -98,7 +98,7 @@ nav:
       - 2.2 Increment an arbitrary-precision integer: "arrays/02.md"
       - 2.3 Multiply two arbitrary-precision integers: "arrays/03.md"
       - 2.4 Advancing through an array: "arrays/04.md"
-      - Delete duplicatesfrom a sorted array: "arrays/"
+      - 2.5 Delete duplicates from a sorted array: "arrays/05.md"
       - Buy and sell a stock once: "arrays/"
       - Buy and sell a stock twice: "arrays/"
       - Enumerate all primes to n: "arrays/"
