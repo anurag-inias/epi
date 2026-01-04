@@ -104,7 +104,7 @@ nav:
       - 2.8 Enumerate all primes to n: "arrays/08.md"
       - 2.9 Permute the elements of an array: "arrays/09.md"
       - 2.10 Compute the next permutation: "arrays/10.md"
-      - Sample offline data: "arrays/"
+      - 2.11 Sample offline data: "arrays/11.md"
       - Sample online data: "arrays/"
       - Compute a random permutation: "arrays/"
       - Compute a random subset: "arrays/"
