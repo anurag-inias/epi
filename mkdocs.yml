@@ -105,7 +105,7 @@ nav:
       - 2.9 Permute the elements of an array: "arrays/09.md"
       - 2.10 Compute the next permutation: "arrays/10.md"
       - 2.11 Sample offline data: "arrays/11.md"
-      - Sample online data: "arrays/"
+      - 2.12 Sample online data: "arrays/12.md"
       - Compute a random permutation: "arrays/"
       - Compute a random subset: "arrays/"
       - Generate nonuniform random numbers: "arrays/"
