@@ -103,7 +103,7 @@ nav:
       - 2.7 Buy and sell a stock twice: "arrays/07.md"
       - 2.8 Enumerate all primes to n: "arrays/08.md"
       - 2.9 Permute the elements of an array: "arrays/09.md"
-      - Compute the next permutation: "arrays/"
+      - 2.10 Compute the next permutation: "arrays/10.md"
       - Sample offline data: "arrays/"
       - Sample online data: "arrays/"
       - Compute a random permutation: "arrays/"
