@@ -108,7 +108,7 @@ nav:
       - 2.12 Sample online data: "arrays/12.md"
       - 2.13 Compute a random permutation: "arrays/13.md"
       - 2.14 Compute a random subset: "arrays/14.md"
-      - Generate nonuniform random numbers: "arrays/"
+      - 2.15 Generate nonuniform random numbers: "arrays/15.md"
       - The Sudoku checker problem: "arrays/"
       - Compute the spiral ordering of a 2D array: "arrays/"
       - Rotate a 2D array: "arrays/"
