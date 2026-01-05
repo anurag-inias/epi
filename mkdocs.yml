@@ -106,7 +106,7 @@ nav:
       - 2.10 Compute the next permutation: "arrays/10.md"
       - 2.11 Sample offline data: "arrays/11.md"
       - 2.12 Sample online data: "arrays/12.md"
-      - Compute a random permutation: "arrays/"
+      - 2.13 Compute a random permutation: "arrays/13.md"
       - Compute a random subset: "arrays/"
       - Generate nonuniform random numbers: "arrays/"
       - The Sudoku checker problem: "arrays/"
