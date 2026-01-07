@@ -109,7 +109,7 @@ nav:
       - 2.13 Compute a random permutation: "arrays/13.md"
       - 2.14 Compute a random subset: "arrays/14.md"
       - 2.15 Generate nonuniform random numbers: "arrays/15.md"
-      - The Sudoku checker problem: "arrays/"
+      - 2.16 The Sudoku checker problem: "arrays/16.md"
       - Compute the spiral ordering of a 2D array: "arrays/"
       - Rotate a 2D array: "arrays/"
       - Compute rowsin Pascal's Triangle: "arrays/"
