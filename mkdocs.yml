@@ -114,7 +114,7 @@ nav:
       - 2.18 Rotate a 2D array: "arrays/18.md"
       - 2.19 Compute rows in Pascal's Triangle: "arrays/19.md"
   - Strings (13):
-      - Interconvertstrings and integers: "strings/"
+      - 3.1 Interconvertstrings and integers: "strings/01.md"
       - Base conversion: "strings/"
       - Compute the spreadsheet column encoding: "strings/"
       - Replace and remove: "strings/"
