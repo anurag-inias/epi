@@ -115,7 +115,7 @@ nav:
       - 2.19 Compute rows in Pascal's Triangle: "arrays/19.md"
   - Strings (13):
       - 3.1 Interconvert strings and integers: "strings/01.md"
-      - Base conversion: "strings/"
+      - 3.2 Base conversion: "strings/02.md"
       - Compute the spreadsheet column encoding: "strings/"
       - Replace and remove: "strings/"
       - Test palindromicity: "strings/"
