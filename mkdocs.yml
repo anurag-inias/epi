@@ -116,7 +116,7 @@ nav:
   - Strings (13):
       - 3.1 Interconvert strings and integers: "strings/01.md"
       - 3.2 Base conversion: "strings/02.md"
-      - Compute the spreadsheet column encoding: "strings/"
+      - 3.3 Compute the spreadsheet column encoding: "strings/03.md"
       - Replace and remove: "strings/"
       - Test palindromicity: "strings/"
       - Reverse all the wordsin a sentence: "strings/"
