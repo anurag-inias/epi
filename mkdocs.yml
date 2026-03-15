@@ -79,7 +79,7 @@ extra_css:
   - assets/extra.css
 
 nav:
-  - About: "index.md"
+  - <a href="https://listless.dev">↖ Back</a>: "back"
   - Primitive Types (12):
       - 1.1 Computing the parity of a word: "primitives/01.md"
       - 1.2 Swap bits: "primitives/02.md"

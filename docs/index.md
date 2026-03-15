@@ -1,1 +1,1 @@
-# EPI
+<meta http-equiv="refresh" content="0; url=primitives/01" />
