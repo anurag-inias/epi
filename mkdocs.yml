@@ -6,7 +6,7 @@ theme:
   favicon: assets/fatigue-dark.svg
   font:
     text: "Besley Medium"
-    code: "Mullet"
+    code: "Google Sans Code Medium"
   features:
     - content.code.copy
     - content.code.annotate
