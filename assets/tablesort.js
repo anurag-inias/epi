@@ -6,3 +6,10 @@ document$.subscribe(function() {
     document.querySelectorAll("thead th")[2].click()
   })
 })
+
+document.querySelectorAll('.md-ellipsis').forEach(span => {
+  const match = span.textContent.trim().match(/^([\d.]+)\s+(.*)$/);
+  if (match) {
+    span.innerHTML = `<span>${match[1]}</span><span>${match[2]}</span>`;
+  }
+});

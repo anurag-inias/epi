@@ -29,6 +29,20 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "NY";
+  src: url("/assets/fonts/nym-medium.otf");
+}
+
+.md-ellipsis {
+  display: flex;
+}
+
+.md-ellipsis span:last-child {
+  padding-left: 8px;
+}
+
+
 /* Used in body */
 /*
 @font-face {
