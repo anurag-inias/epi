@@ -126,7 +126,6 @@ nav:
       - 3.10 Compute all valid IP addresses: "strings/10.md"
       - 3.11 Write a string sinusoidally: "strings/11.md"
       - 3.12 Implement run-length encoding: "strings/12.md"
-      - Find the first occurrence of a substring: "strings/"
   - Linked Lists (13):
       - Merge two sorted lists: "linked-lists/"
       - Reverse a single sublist: "linked-lists/"
