@@ -122,7 +122,7 @@ nav:
       - 3.6 Reverse all the words in a sentence: "strings/06.md"
       - 3.7 Compute all mnemonics for a phone number: "strings/07.md"
       - 3.8 The look-and-say problem: "strings/08.md"
-      - Convert from Roman to decimal: "strings/"
+      - 3.9 Convert from Roman to decimal: "strings/09.md"
       - Compute all valid IP addresses: "strings/"
       - Write a string sinusoidally: "strings/"
       - Implement run-length encoding: "strings/"
