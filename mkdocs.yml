@@ -124,7 +124,7 @@ nav:
       - 3.8 The look-and-say problem: "strings/08.md"
       - 3.9 Convert from Roman to decimal: "strings/09.md"
       - 3.10 Compute all valid IP addresses: "strings/10.md"
-      - Write a string sinusoidally: "strings/"
+      - 3.11 Write a string sinusoidally: "strings/11.md"
       - Implement run-length encoding: "strings/"
       - Find the first occurrence of a substring: "strings/"
   - Linked Lists (13):
