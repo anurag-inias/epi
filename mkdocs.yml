@@ -127,7 +127,7 @@ nav:
       - 3.11 Write a string sinusoidally: "strings/11.md"
       - 3.12 Implement run-length encoding: "strings/12.md"
   - Linked Lists (13):
-      - Merge two sorted lists: "linked-lists/"
+      - 4.1 Merge two sorted lists: "linked-lists/01.md"
       - Reverse a single sublist: "linked-lists/"
       - Test for cyclicity: "linked-lists/"
       - Test for overlapping lists—lists are cycle-free: "linked-lists/"
