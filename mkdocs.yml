@@ -129,7 +129,7 @@ nav:
   - Linked Lists (13):
       - 4.1 Merge two sorted lists: "linked-lists/01.md"
       - 4.2 Reverse a single sublist: "linked-lists/02.md"
-      - Test for cyclicity: "linked-lists/"
+      - 4.3 Test for cyclicity: "linked-lists/03.md"
       - Test for overlapping lists—lists are cycle-free: "linked-lists/"
       - Test for overlapping lists—lists may have cycles: "linked-lists/"
       - Delete a node from a singly linked list: "linked-lists/"
