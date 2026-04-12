@@ -128,7 +128,7 @@ nav:
       - 3.12 Implement run-length encoding: "strings/12.md"
   - Linked Lists (13):
       - 4.1 Merge two sorted lists: "linked-lists/01.md"
-      - Reverse a single sublist: "linked-lists/"
+      - 4.2 Reverse a single sublist: "linked-lists/02.md"
       - Test for cyclicity: "linked-lists/"
       - Test for overlapping lists—lists are cycle-free: "linked-lists/"
       - Test for overlapping lists—lists may have cycles: "linked-lists/"
