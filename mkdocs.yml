@@ -132,7 +132,7 @@ nav:
       - 4.3 Test for cyclicity: "linked-lists/03.md"
       - 4.4 Test for overlapping lists - lists are cycle-free: "linked-lists/04.md"
       - 4.5 Test for overlapping lists - lists may have cycles: "linked-lists/05.md"
-      - Delete a node from a singly linked list: "linked-lists/"
+      - 4.6 Delete a node from a singly linked list: "linked-lists/06.md"
       - Remove the kth last element from a list: "linked-lists/"
       - Remove duplicatesfrom a sorted list: "linked-lists/"
       - Implement cyclic rightshift for singly linked lists: "linked-lists/"
