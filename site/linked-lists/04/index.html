@@ -5,30 +5,34 @@
       
       
       
-        <link rel="canonical" href="https://listless.dev/">
+        <link rel="canonical" href="https://listless.dev/linked-lists/04/">
       
       
+        <link rel="prev" href="../03/">
+      
+      
+        <link rel="next" href="../../honors/01/">
       
       
         
       
       
-        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="feed_rss_updated.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../feed_rss_updated.xml">
       
-      <link rel="icon" href="assets/fatigue-dark.svg">
+      <link rel="icon" href="../../assets/fatigue-dark.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
     
     
       
-        <title>listless 💤</title>
+        <title>4.4 Test for overlapping lists - lists are cycle-free - listless 💤</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,17 +51,17 @@
       
     
     
-      <link rel="stylesheet" href="assets/extra.css">
+      <link rel="stylesheet" href="../../assets/extra.css">
     
-      <link rel="stylesheet" href="assets/javascripts/placeholder-plugin.css">
+      <link rel="stylesheet" href="../../assets/javascripts/placeholder-plugin.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
-  <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -85,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#test-for-overlapping-lists-lists-are-cycle-free" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -97,9 +106,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="listless 💤" class="md-header__button md-logo" aria-label="listless 💤" data-md-component="logo">
+    <a href="../.." title="listless 💤" class="md-header__button md-logo" aria-label="listless 💤" data-md-component="logo">
       
-  <img src="assets/fatigue-light.svg" alt="logo">
+  <img src="../../assets/fatigue-light.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -116,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              4.4 Test for overlapping lists - lists are cycle-free
             
           </span>
         </div>
@@ -180,9 +189,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="listless 💤" class="md-nav__button md-logo" aria-label="listless 💤" data-md-component="logo">
+    <a href="../.." title="listless 💤" class="md-nav__button md-logo" aria-label="listless 💤" data-md-component="logo">
       
-  <img src="assets/fatigue-light.svg" alt="logo">
+  <img src="../../assets/fatigue-light.svg" alt="logo">
 
     </a>
     listless 💤
@@ -197,7 +206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="back" class="md-nav__link">
+      <a href="../../back" class="md-nav__link">
         
   
   
@@ -271,7 +280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/01/" class="md-nav__link">
+      <a href="../../primitives/01/" class="md-nav__link">
         
   
   
@@ -299,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/02/" class="md-nav__link">
+      <a href="../../primitives/02/" class="md-nav__link">
         
   
   
@@ -327,7 +336,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/03/" class="md-nav__link">
+      <a href="../../primitives/03/" class="md-nav__link">
         
   
   
@@ -355,7 +364,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/04/" class="md-nav__link">
+      <a href="../../primitives/04/" class="md-nav__link">
         
   
   
@@ -383,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/05/" class="md-nav__link">
+      <a href="../../primitives/05/" class="md-nav__link">
         
   
   
@@ -411,7 +420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/06/" class="md-nav__link">
+      <a href="../../primitives/06/" class="md-nav__link">
         
   
   
@@ -439,7 +448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/07/" class="md-nav__link">
+      <a href="../../primitives/07/" class="md-nav__link">
         
   
   
@@ -467,7 +476,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/08/" class="md-nav__link">
+      <a href="../../primitives/08/" class="md-nav__link">
         
   
   
@@ -495,7 +504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/09/" class="md-nav__link">
+      <a href="../../primitives/09/" class="md-nav__link">
         
   
   
@@ -523,7 +532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/10/" class="md-nav__link">
+      <a href="../../primitives/10/" class="md-nav__link">
         
   
   
@@ -551,7 +560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/11/" class="md-nav__link">
+      <a href="../../primitives/11/" class="md-nav__link">
         
   
   
@@ -579,7 +588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="primitives/12/" class="md-nav__link">
+      <a href="../../primitives/12/" class="md-nav__link">
         
   
   
@@ -661,7 +670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/01/" class="md-nav__link">
+      <a href="../../arrays/01/" class="md-nav__link">
         
   
   
@@ -689,7 +698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/02/" class="md-nav__link">
+      <a href="../../arrays/02/" class="md-nav__link">
         
   
   
@@ -717,7 +726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/03/" class="md-nav__link">
+      <a href="../../arrays/03/" class="md-nav__link">
         
   
   
@@ -745,7 +754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/04/" class="md-nav__link">
+      <a href="../../arrays/04/" class="md-nav__link">
         
   
   
@@ -773,7 +782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/05/" class="md-nav__link">
+      <a href="../../arrays/05/" class="md-nav__link">
         
   
   
@@ -801,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/06/" class="md-nav__link">
+      <a href="../../arrays/06/" class="md-nav__link">
         
   
   
@@ -829,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/07/" class="md-nav__link">
+      <a href="../../arrays/07/" class="md-nav__link">
         
   
   
@@ -857,7 +866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/08/" class="md-nav__link">
+      <a href="../../arrays/08/" class="md-nav__link">
         
   
   
@@ -885,7 +894,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/09/" class="md-nav__link">
+      <a href="../../arrays/09/" class="md-nav__link">
         
   
   
@@ -913,7 +922,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/10/" class="md-nav__link">
+      <a href="../../arrays/10/" class="md-nav__link">
         
   
   
@@ -941,7 +950,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/11/" class="md-nav__link">
+      <a href="../../arrays/11/" class="md-nav__link">
         
   
   
@@ -969,7 +978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/12/" class="md-nav__link">
+      <a href="../../arrays/12/" class="md-nav__link">
         
   
   
@@ -997,7 +1006,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/13/" class="md-nav__link">
+      <a href="../../arrays/13/" class="md-nav__link">
         
   
   
@@ -1025,7 +1034,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/14/" class="md-nav__link">
+      <a href="../../arrays/14/" class="md-nav__link">
         
   
   
@@ -1053,7 +1062,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/15/" class="md-nav__link">
+      <a href="../../arrays/15/" class="md-nav__link">
         
   
   
@@ -1081,7 +1090,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/16/" class="md-nav__link">
+      <a href="../../arrays/16/" class="md-nav__link">
         
   
   
@@ -1109,7 +1118,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/17/" class="md-nav__link">
+      <a href="../../arrays/17/" class="md-nav__link">
         
   
   
@@ -1137,7 +1146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/18/" class="md-nav__link">
+      <a href="../../arrays/18/" class="md-nav__link">
         
   
   
@@ -1165,7 +1174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/19/" class="md-nav__link">
+      <a href="../../arrays/19/" class="md-nav__link">
         
   
   
@@ -1247,7 +1256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/01/" class="md-nav__link">
+      <a href="../../strings/01/" class="md-nav__link">
         
   
   
@@ -1275,7 +1284,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/02/" class="md-nav__link">
+      <a href="../../strings/02/" class="md-nav__link">
         
   
   
@@ -1303,7 +1312,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/03/" class="md-nav__link">
+      <a href="../../strings/03/" class="md-nav__link">
         
   
   
@@ -1331,7 +1340,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/04/" class="md-nav__link">
+      <a href="../../strings/04/" class="md-nav__link">
         
   
   
@@ -1359,7 +1368,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/05/" class="md-nav__link">
+      <a href="../../strings/05/" class="md-nav__link">
         
   
   
@@ -1387,7 +1396,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/06/" class="md-nav__link">
+      <a href="../../strings/06/" class="md-nav__link">
         
   
   
@@ -1415,7 +1424,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/07/" class="md-nav__link">
+      <a href="../../strings/07/" class="md-nav__link">
         
   
   
@@ -1443,7 +1452,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/08/" class="md-nav__link">
+      <a href="../../strings/08/" class="md-nav__link">
         
   
   
@@ -1471,7 +1480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/09/" class="md-nav__link">
+      <a href="../../strings/09/" class="md-nav__link">
         
   
   
@@ -1499,7 +1508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/10/" class="md-nav__link">
+      <a href="../../strings/10/" class="md-nav__link">
         
   
   
@@ -1527,7 +1536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/11/" class="md-nav__link">
+      <a href="../../strings/11/" class="md-nav__link">
         
   
   
@@ -1555,7 +1564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/12/" class="md-nav__link">
+      <a href="../../strings/12/" class="md-nav__link">
         
   
   
@@ -1587,18 +1596,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -1619,7 +1630,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1637,7 +1648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/01/" class="md-nav__link">
+      <a href="../01/" class="md-nav__link">
         
   
   
@@ -1665,7 +1676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/02/" class="md-nav__link">
+      <a href="../02/" class="md-nav__link">
         
   
   
@@ -1693,7 +1704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/03/" class="md-nav__link">
+      <a href="../03/" class="md-nav__link">
         
   
   
@@ -1718,10 +1729,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="linked-lists/04/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.4 Test for overlapping lists - lists are cycle-free
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1737,6 +1775,59 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stub" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stub
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1749,7 +1840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1777,7 +1868,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1805,7 +1896,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1833,7 +1924,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1861,7 +1952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1889,7 +1980,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1917,7 +2008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1945,7 +2036,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -1973,7 +2064,7 @@
   
   
     <li class="md-nav__item">
-      <a href="linked-lists/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -2055,7 +2146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2083,7 +2174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2111,7 +2202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2139,7 +2230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2167,7 +2258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2195,7 +2286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2223,7 +2314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2251,7 +2342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2279,7 +2370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2307,7 +2398,7 @@
   
   
     <li class="md-nav__item">
-      <a href="stacks-and-queues/" class="md-nav__link">
+      <a href="../../stacks-and-queues/" class="md-nav__link">
         
   
   
@@ -2389,7 +2480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2417,7 +2508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2445,7 +2536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2473,7 +2564,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2501,7 +2592,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2529,7 +2620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2557,7 +2648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2585,7 +2676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2613,7 +2704,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2641,7 +2732,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2669,7 +2760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2697,7 +2788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2725,7 +2816,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2753,7 +2844,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2781,7 +2872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2809,7 +2900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2837,7 +2928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="binary-trees/" class="md-nav__link">
+      <a href="../../binary-trees/" class="md-nav__link">
         
   
   
@@ -2919,7 +3010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="heaps/" class="md-nav__link">
+      <a href="../../heaps/" class="md-nav__link">
         
   
   
@@ -2947,7 +3038,7 @@
   
   
     <li class="md-nav__item">
-      <a href="heaps/" class="md-nav__link">
+      <a href="../../heaps/" class="md-nav__link">
         
   
   
@@ -2975,7 +3066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="heaps/" class="md-nav__link">
+      <a href="../../heaps/" class="md-nav__link">
         
   
   
@@ -3003,7 +3094,7 @@
   
   
     <li class="md-nav__item">
-      <a href="heaps/" class="md-nav__link">
+      <a href="../../heaps/" class="md-nav__link">
         
   
   
@@ -3031,7 +3122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="heaps/" class="md-nav__link">
+      <a href="../../heaps/" class="md-nav__link">
         
   
   
@@ -3059,7 +3150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="heaps/" class="md-nav__link">
+      <a href="../../heaps/" class="md-nav__link">
         
   
   
@@ -3087,7 +3178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="heaps/" class="md-nav__link">
+      <a href="../../heaps/" class="md-nav__link">
         
   
   
@@ -3169,7 +3260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3197,7 +3288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3225,7 +3316,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3253,7 +3344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3281,7 +3372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3309,7 +3400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3337,7 +3428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3365,7 +3456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3393,7 +3484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3421,7 +3512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="searching/" class="md-nav__link">
+      <a href="../../searching/" class="md-nav__link">
         
   
   
@@ -3503,7 +3594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3531,7 +3622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3559,7 +3650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3587,7 +3678,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3615,7 +3706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3643,7 +3734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3671,7 +3762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3699,7 +3790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3727,7 +3818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3755,7 +3846,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3783,7 +3874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3811,7 +3902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3839,7 +3930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3867,7 +3958,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hash-tables/" class="md-nav__link">
+      <a href="../../hash-tables/" class="md-nav__link">
         
   
   
@@ -3949,7 +4040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -3977,7 +4068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4005,7 +4096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4033,7 +4124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4061,7 +4152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4089,7 +4180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4117,7 +4208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4145,7 +4236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4173,7 +4264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4201,7 +4292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sorting/" class="md-nav__link">
+      <a href="../../sorting/" class="md-nav__link">
         
   
   
@@ -4283,7 +4374,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4311,7 +4402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4339,7 +4430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4367,7 +4458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4395,7 +4486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4423,7 +4514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4451,7 +4542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4479,7 +4570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4507,7 +4598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4535,7 +4626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4563,7 +4654,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4591,7 +4682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4619,7 +4710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bst/" class="md-nav__link">
+      <a href="../../bst/" class="md-nav__link">
         
   
   
@@ -4701,7 +4792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4729,7 +4820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4757,7 +4848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4785,7 +4876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4813,7 +4904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4841,7 +4932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4869,7 +4960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4897,7 +4988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4925,7 +5016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4953,7 +5044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -4981,7 +5072,7 @@
   
   
     <li class="md-nav__item">
-      <a href="recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
   
   
@@ -5063,7 +5154,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5091,7 +5182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5119,7 +5210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5147,7 +5238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5175,7 +5266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5203,7 +5294,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5231,7 +5322,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5259,7 +5350,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5287,7 +5378,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5315,7 +5406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5343,7 +5434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5371,7 +5462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="dp/" class="md-nav__link">
+      <a href="../../dp/" class="md-nav__link">
         
   
   
@@ -5453,7 +5544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
   
   
@@ -5481,7 +5572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
   
   
@@ -5509,7 +5600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
   
   
@@ -5537,7 +5628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
   
   
@@ -5565,7 +5656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
   
   
@@ -5593,7 +5684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
   
   
@@ -5621,7 +5712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
   
   
@@ -5649,7 +5740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
   
   
@@ -5731,7 +5822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -5759,7 +5850,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -5787,7 +5878,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -5815,7 +5906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -5843,7 +5934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -5871,7 +5962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -5899,7 +5990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -5927,7 +6018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -5955,7 +6046,7 @@
   
   
     <li class="md-nav__item">
-      <a href="graphs/" class="md-nav__link">
+      <a href="../../graphs/" class="md-nav__link">
         
   
   
@@ -6037,7 +6128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6065,7 +6156,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6093,7 +6184,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6121,7 +6212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6149,7 +6240,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6177,7 +6268,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6205,7 +6296,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6233,7 +6324,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6261,7 +6352,7 @@
   
   
     <li class="md-nav__item">
-      <a href="parallel/" class="md-nav__link">
+      <a href="../../parallel/" class="md-nav__link">
         
   
   
@@ -6343,7 +6434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/01/" class="md-nav__link">
+      <a href="../../honors/01/" class="md-nav__link">
         
   
   
@@ -6371,7 +6462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6399,7 +6490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6427,7 +6518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6455,7 +6546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6483,7 +6574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6511,7 +6602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6539,7 +6630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6567,7 +6658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6595,7 +6686,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6623,7 +6714,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6651,7 +6742,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6679,7 +6770,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6707,7 +6798,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6735,7 +6826,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6763,7 +6854,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6791,7 +6882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6819,7 +6910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6847,7 +6938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6875,7 +6966,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6903,7 +6994,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6931,7 +7022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6959,7 +7050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -6987,7 +7078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7015,7 +7106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7043,7 +7134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7071,7 +7162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7099,7 +7190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7127,7 +7218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7155,7 +7246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7183,7 +7274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7211,7 +7302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7239,7 +7330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7267,7 +7358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7295,7 +7386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7323,7 +7414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7351,7 +7442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7379,7 +7470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7407,7 +7498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7435,7 +7526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="honors/" class="md-nav__link">
+      <a href="../../honors/" class="md-nav__link">
         
   
   
@@ -7480,6 +7571,49 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Description
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stub" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stub
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solution
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -7496,9 +7630,48 @@
 
 
 
-  <h1>Home</h1>
-
-<p><meta http-equiv="refresh" content="0; url=primitives/01"></p>
+<h1 id="test-for-overlapping-lists-lists-are-cycle-free">Test for overlapping lists - lists are cycle-free</h1>
+<h2 id="description">Description</h2>
+<p>Write a program that takes two cycle-free singly linked lists, and determines if there
+exists a node that is common to both lists.</p>
+<h2 id="stub">Stub</h2>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">ListNode</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">overlappingNoCycleLists</span><span class="p">(</span><span class="n">ListNode</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">l0</span><span class="p">,</span><span class="w"> </span><span class="n">ListNode</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">l1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="c1">// Fill here</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">}</span>
+</span></code></pre></div>
+<h2 id="solution">Solution</h2>
+<details>
+<summary>Expand</summary>
+<p>Let's assume the first list is of length <code>a+c</code> and second list of length <code>b+c</code>, where <code>c</code> is the length of the overlap. We can find <span class="arithmatex">\(|(a+c) - (b+c)|\)</span> the steps we need to take in either lists before we are on track to have both cursor the same distance from the joint.</p>
+<div class="language-java highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">ListNode</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nf">overlappingNoCycleLists</span><span class="p">(</span><span class="n">ListNode</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">l0</span><span class="p">,</span><span class="w"> </span><span class="n">ListNode</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">l1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="n">ac</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">length</span><span class="p">(</span><span class="n">l0</span><span class="p">);</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="n">bc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">length</span><span class="p">(</span><span class="n">l1</span><span class="p">);</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">ac</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">bc</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="n">l0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l0</span><span class="p">.</span><span class="na">next</span><span class="p">;</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="n">ac</span><span class="o">--</span><span class="p">;</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">bc</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">ac</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="n">l1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l1</span><span class="p">.</span><span class="na">next</span><span class="p">;</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="n">bc</span><span class="o">--</span><span class="p">;</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">l0</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="n">l1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="n">l0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l0</span><span class="p">.</span><span class="na">next</span><span class="p">;</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">    </span><span class="n">l1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">l1</span><span class="p">.</span><span class="na">next</span><span class="p">;</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">l0</span><span class="p">;</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="p">}</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>
+</span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">length</span><span class="p">(</span><span class="n">ListNode</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="n">head</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-21"><a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">len</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+</span><span id="__span-1-22"><a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">  </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">head</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-23"><a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="w">    </span><span class="n">len</span><span class="o">++</span><span class="p">;</span>
+</span><span id="__span-1-24"><a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="w">    </span><span class="n">head</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">head</span><span class="p">.</span><span class="na">next</span><span class="p">;</span>
+</span><span id="__span-1-25"><a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-1-26"><a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">len</span><span class="p">;</span>
+</span><span id="__span-1-27"><a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="p">}</span>
+</span></code></pre></div>
+</details>
 
 
 
@@ -7548,20 +7721,20 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.code.copy", "content.code.annotate", "content.tooltips"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.code.annotate", "content.tooltips"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-        <script src="assets/tablesort.min.js"></script>
+        <script src="../../assets/tablesort.min.js"></script>
       
-        <script src="assets/tablesort.number.min.js"></script>
+        <script src="../../assets/tablesort.number.min.js"></script>
       
-        <script src="assets/tablesort.js"></script>
+        <script src="../../assets/tablesort.js"></script>
       
-        <script src="assets/javascripts/placeholder-combined.js"></script>
+        <script src="../../assets/javascripts/placeholder-combined.js"></script>
       
     
   
