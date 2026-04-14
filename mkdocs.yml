@@ -133,7 +133,7 @@ nav:
       - 4.4 Test for overlapping lists - lists are cycle-free: "linked-lists/04.md"
       - 4.5 Test for overlapping lists - lists may have cycles: "linked-lists/05.md"
       - 4.6 Delete a node from a singly linked list: "linked-lists/06.md"
-      - Remove the kth last element from a list: "linked-lists/"
+      - 4.7 Remove the kth last element from a list: "linked-lists/07.md"
       - Remove duplicatesfrom a sorted list: "linked-lists/"
       - Implement cyclic rightshift for singly linked lists: "linked-lists/"
       - Implement even-odd merge: "linked-lists/"
