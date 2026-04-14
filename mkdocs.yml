@@ -138,7 +138,7 @@ nav:
       - 4.9 Implement cyclic right shift for singly linked lists: "linked-lists/09.md"
       - 4.10 Implement even-odd merge: "linked-lists/10.md"
       - 4.11 Test whether a singly linked list is palindromic: "linked-lists/11.md"
-      - Implement list pivoting: "linked-lists/"
+      - 4.12 Implement list pivoting: "linked-lists/12.md"
       - Add list-based integers: "linked-lists/"
   - Stacks & Queues (10):
       - Implement a stack with max API: "stacks-and-queues/"
