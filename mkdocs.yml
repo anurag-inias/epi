@@ -135,7 +135,7 @@ nav:
       - 4.6 Delete a node from a singly linked list: "linked-lists/06.md"
       - 4.7 Remove the kth last element from a list: "linked-lists/07.md"
       - 4.8 Remove duplicates from a sorted list: "linked-lists/08.md"
-      - Implement cyclic rightshift for singly linked lists: "linked-lists/"
+      - 4.9 Implement cyclic right shift for singly linked lists: "linked-lists/09.md"
       - Implement even-odd merge: "linked-lists/"
       - Test whether a singly linked list is palindromic: "linked-lists/"
       - Implement list pivoting: "linked-lists/"
