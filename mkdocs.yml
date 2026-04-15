@@ -113,7 +113,7 @@ nav:
       - 2.17 Compute the spiral ordering of a 2D array: "arrays/17.md"
       - 2.18 Rotate a 2D array: "arrays/18.md"
       - 2.19 Compute rows in Pascal's Triangle: "arrays/19.md"
-  - Strings (13):
+  - Strings (12):
       - 3.1 Interconvert strings and integers: "strings/01.md"
       - 3.2 Base conversion: "strings/02.md"
       - 3.3 Compute the spreadsheet column encoding: "strings/03.md"
@@ -141,7 +141,7 @@ nav:
       - 4.12 Implement list pivoting: "linked-lists/12.md"
       - 4.13 Add list-based integers: "linked-lists/13.md"
   - Stacks & Queues (10):
-      - Implement a stack with max API: "stacks-and-queues/"
+      - 5.1 Implement a stack with max API: "stacks-and-queues/01.md"
       - Evaluate RPN expressions: "stacks-and-queues/"
       - Test a string over for well-formedness: "stacks-and-queues/"
       - Normalize pathnames: "stacks-and-queues/"
