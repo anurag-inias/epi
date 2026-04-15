@@ -143,7 +143,7 @@ nav:
   - Stacks & Queues (10):
       - 5.1 Implement a stack with max API: "stacks-and-queues/01.md"
       - 5.2 Evaluate RPN expressions: "stacks-and-queues/02.md"
-      - Test a string over for well-formedness: "stacks-and-queues/"
+      - 5.3 Test a string over for well-formedness: "stacks-and-queues/03.md"
       - Normalize pathnames: "stacks-and-queues/"
       - Search a postings list: "stacks-and-queues/"
       - Compute buildings with a sunset view: "stacks-and-queues/"
