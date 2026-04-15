@@ -142,7 +142,7 @@ nav:
       - 4.13 Add list-based integers: "linked-lists/13.md"
   - Stacks & Queues (10):
       - 5.1 Implement a stack with max API: "stacks-and-queues/01.md"
-      - Evaluate RPN expressions: "stacks-and-queues/"
+      - 5.2 Evaluate RPN expressions: "stacks-and-queues/02.md"
       - Test a string over for well-formedness: "stacks-and-queues/"
       - Normalize pathnames: "stacks-and-queues/"
       - Search a postings list: "stacks-and-queues/"
